@@ -1,2 +1,3 @@
-# git-settings-michaelfoss
-A template for git settings for new development environments.
+# Git Settings
+Commonly-used git settings and files for new development environments.
+
