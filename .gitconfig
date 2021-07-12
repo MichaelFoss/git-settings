@@ -5,6 +5,7 @@
 	editor = vim
 	# excludesfile = /Users/mfoss/.gitignore_global
 [alias]
+  f = fetch --prune
 	co = checkout
 	cob = checkout -b
 	br = branch
