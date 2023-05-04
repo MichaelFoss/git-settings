@@ -15,6 +15,7 @@
 	brd = branch -d
 	brD = branch -D
 	brdr = !git push :$(git rev-parse --abbrev-ref HEAD) && git branch --unset-upstream $(git rev-parse --abbrev-ref HEAD)
+	brname = rev-parse --abbrev-ref HEAD
 	wip = !git add -A && git commit -m \"WIP\"
 	piw = reset HEAD~1
 	lg = log --graph --pretty=format:\"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\" --abbrev-commit
