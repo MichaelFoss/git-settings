@@ -36,3 +36,5 @@
 	msg = log -1 --pretty=%B
 	push1 = !git push -u origin $(git rev-parse --abbrev-ref HEAD)
 	pushf = push --force
+[pager]
+	branch = false
